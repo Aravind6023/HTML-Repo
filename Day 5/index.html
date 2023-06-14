@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMS 2</title>
+</head>
+
+<body>
+    <!--TASK-->
+    <div class="parent_Container">
+        <div class="table_Basic">
+            <form action="">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="">Firstname:</label>
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="">Middlename:</label>
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Lastname:</label>
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <label for="">Course:</label>
+                <select>
+                    <option value="">Course</option>
+                    <option value="frontenddevelopment">Front-End</option>
+                    <option value="backenddevelopment">Back-End</option>
+                    <option value="fullstackdevelopment">Full Stack</option>
+                </select>
+                <br>
+
+                <label for="">Gender:</label>
+                <br>
+                <input type="radio" name="gender" id="" value="male">Male
+                <br>
+                <input type="radio" name="gender" id="" value="female">female
+                <br>
+                <input type="radio" name="gender" id="" value="other">Other
+                <br>
+
+                <div class="basic_Container">
+                    <label for="">Phone:</label>
+                    <select name="" id="">
+                        <option value="">+ 91</option>
+                    </select>
+                    <input type="text" name="" id="">
+                    <br>
+
+                    <label for="">Address:</label>
+                    <br>
+                    <textarea name="" id="" cols="100" rows="5"></textarea>
+                    <br>
+
+                    <label for="">Email:</label>
+                    <input type="text">
+                    <br>
+
+                    <label for="">Password:</label>
+                    <input type="text">
+                    <br>
+
+                    <label for="">Re-type Password</label>
+                    <input type="text" name="" id="">
+                    <br>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="srf_basic">
+            <div class="heading_Border">
+                <center>
+                    <h1>Student Registration Form</h1>
+                </center>
+            </div>
+            <table class="student_table">
+                <tbody>
+                    <tr>
+                        <td class="label_Spacing">
+                            Name:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="text" placeholder="Enter Full Name" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Father's Name:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Mother's Name:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Phone Number:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="text" placeholder="017xxxxxxxx" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Email:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="email" placeholder="sample@example.com" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Gender:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                            <input type="radio" name="gender" value="other">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Date OF Birth:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="text" maxlength="2" size="2">-
+                            <input type="text" maxlength="2" size="2">-
+                            <input type="text" maxlength="4" size="4">(dd-mm-yyyy)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Address:
+                        </td>
+                        <td class="input_Spacing">
+                            <pre><input type="text" size="54" placeholder="Street -   House -   Road -   "></pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            <label for="">Blood Group:</label>
+                        </td>
+                        <td class="input_Spacing">
+                            <select name="" id="">
+                                <option value="">Select</option>
+                                <option value="a-positive">A<sup>+ve</sup></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Department:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="radio" name="department" value="cse">CSE
+                            <input type="radio" name="department" value="eee">EEE
+                            <input type="radio" name="department" value="bba">BBA
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Course:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="checkbox" name="course" value="c">C
+                            <input type="checkbox" name="course" value="c++">C++
+                            <input type="checkbox" name="course" value="java">Java
+                            <input type="checkbox" name="course" value="ai">AI
+                            <input type="checkbox" name="course" value="machinelearning">Machine Learning
+                            <input type="checkbox" name="course" value="robotics">Robotics
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label_Spacing">
+                            Photo:
+                        </td>
+                        <td class="input_Spacing">
+                            <input type="file">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+            <br>
+            <a href="#">Submit</a>
+            <button type="reset">Reset</button>
+        </div>
+
+
+    </div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- table-3 -->
+
+    <div class="srf_Parent">
+        <div class="srf">
+            <center>
+                <h1>Student Registeration Form</h1>
+            </center>
+            <form action="">
+                <label for="">Firstname</label>
+                <br>
+                <input class="full_width bottom_Space" type="text" placeholder="Firstname">
+                <br>
+                <label for="">Middlename</label>
+                <br>
+                <input class="full_width bottom_Space" type="text" placeholder="Middlename">
+                <br>
+                <label for="">Lastname</label>
+                <br>
+                <input class="full_width bottom_Space" type="text" placeholder="Lastname">
+                <br>
+                <label class="bottom_Space" for="">Course:</label>
+                <select name="" id="">
+                    <option value="">Course</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="">Gender:</label>
+                <br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">Other
+                <br>
+                <br>
+                <label for="">Phone:</label>
+                <br>
+                <input class="full_width" type="text" placeholder="+91">
+                <br>
+                <br>
+                <input class="full_width bottom_Space" type="text" placeholder="phone no">
+                <br>
+                <label for="">
+                    Current Address:
+                </label>
+                <br>
+                <textarea style="margin-top: 0.3em;" class="bottom_Space" name="" id="" cols="82" rows="5"
+                    placeholder="Current Address"></textarea>
+                <br>
+                <label for="">Email</label>
+                <br>
+                <input class="full_width bottom_Space" type="text" placeholder="Enter Email">
+                <br>
+                <label for="">Password</label>
+                <br>
+                <input class="full_width bottom_Space" type="text" placeholder="Enter password">
+                <br>
+                <label for="">Re-type Password</label>
+                <br>
+                <input class="full_width bottom_Space" type="text" placeholder="Retype Password">
+                <br>
+                <button class="full_width bottom_Space">Register</button>
+            </form>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- table-4 -->
+
+    <div align="center">
+        <div class="simple_Table">
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <td>
+                            Name:
+                        </td>
+                        <td>
+                            <input class="fullWidth" type="text" placeholder="your name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email
+                        </td>
+                        <td>
+                            <input class="fullWidth" type="text" placeholder="your email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input class="fullWidth" type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone Number:
+                        </td>
+                        <td>
+                            <input class="fullWidth" type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="gender_Spacing">
+                            Gender
+                        </td>
+                        <td class="selctor_Space">
+                            Male:<input type="radio" name="gender" value="male">
+                            Female:<input type="radio" name="gender" value="female">
+                            Other:<input type="radio" name="gender" value="other">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="gender_Spacing">
+                            Language:
+                        </td>
+                        <td class="selctor_Space">
+                            <select name="" id="">
+                                <option value="">Select language</option>
+                                <option value="tamil">Tamil</option>
+                                <option value="english">English</option>
+                                <option value="hindi">Hindi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Zip Code:
+                        </td>
+                        <td>
+                            <input class="fullWidth" type="text">
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            About:
+                        </td>
+                        <td>
+                            <textarea name="" id="" cols="25" rows="2" placeholder="Write about yourself..."></textarea>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div align="center">
+                <button class="halfWidth" type="submit">Register</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- table-5 -->
+    <div align="center">
+        <div class="srf_Table">
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <td>
+                            First Name
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="text" placeholder="Ghanendra" maxlength="50">
+                            (Max 50 Characters Allowed)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Last Name
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="text" placeholder="Yadav" maxlength="50">
+                            (Max 50 Characters Allowed)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email ID
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="email" placeholder="ghanendra@gmail.com" maxlength="50">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mobile Number
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="text" placeholder="7842xxxxxx" maxlength="10">
+                            (10 Digits Allowed)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date of Birth(DOB)
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <select name="" id="">
+                                <option value="">Day:</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">Month:</option>
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="apr">Apr</option>
+                                <option value="may">May</option>
+                                <option value="jun">Jun</option>
+                                <option value="jul">Jul</option>
+                                <option value="aug">Aug</option>
+                                <option value="sep">Sep</option>
+                                <option value="oct">Oct</option>
+                                <option value="nov">Nov</option>
+                                <option value="dec">Dec</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">year:</option>
+                                <option value="1997">1997</option>
+                                <option value="1998">1998</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                                <option value="2003">2003</option>
+                                <option value="2004">2004</option>
+                                <option value="2005">2005</option>
+                                <option value="2006">2006</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            City
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="text" name="" placeholder="Bangalore" maxlength="50">
+                            (Max 50 Characters Allowed)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Pin Code
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="text" name="" placeholder="560068" maxlength="6">
+                            (Max 6 Numbers Allowed)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            State
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="text" name="" placeholder="Karnataka" maxlength="50">
+                            (Max 50 Characters Allowed)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Country
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="text" name="" placeholder="India">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Hobbies
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="checkbox" name="hobbies" value="drawing">Drawing
+                            <input type="checkbox" name="hobbies" value="singing">Singing
+                            <input type="checkbox" name="hobbies" value="dancing">Dancing
+                            <input type="checkbox" name="hobbies" value="sketching">Sketching
+                            <br>
+                            <input type="checkbox" name="hobbies" value="others">Others
+                            <input type="text" name="hobbies" placeholder="Ex- Teaching">
+                            (Max 50 Characters Allowed)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Qualification
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="checkbox" name="qualification" value="high-school(10th)">High School(10th)
+                            <br>
+                            <input type="checkbox" name="qualification" value="higher-school(12th)">Higher School(12th)
+                            <br>
+                            <input type="checkbox" name="qualification" value="graduation(bachelors"
+                                )>Graduation(Bachelors)
+                            <br>
+                            <input type="checkbox" name="qualification" value="post-graduation(master)">Post
+                            Graduation(Master)
+                            <br>
+                            <input type="checkbox" name="qualification" value="phd">Phd
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Courses Applied For
+                        </td>
+                        <td class="srf_InputSpacing">
+                            <input type="checkbox" value="">BCA(Bachelors's in Computer Applications)
+                            <br>
+                            <input type="checkbox" value="">B.Com(Bachelor of Commerce)
+                            <br>
+                            <input type="checkbox" value="">B.SC(Bachelor of Science)
+                            <br>
+                            <input type="checkbox" value="">BA(Bachelor of Arts)
+                            <br>
+                            <input type="checkbox" value="">MCA(Master of Computer Application)
+                            <br>
+                            <input type="checkbox" value="">M.Com(Master of Commerce)
+                            <br>
+                            <input type="checkbox" value="">M.Sc(Master of Science)<br>
+
+                            <input type="checkbox" value="">MA(Master of Arts)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
