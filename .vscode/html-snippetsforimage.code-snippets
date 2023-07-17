@@ -1,0 +1,10 @@
+{
+	"Print to console": {
+		"scope": "html",
+		"prefix": "ni",
+		"body": [
+			"No Image",
+		],
+		"description": "responsive"
+	}
+}

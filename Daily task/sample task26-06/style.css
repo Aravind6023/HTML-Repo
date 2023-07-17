@@ -1,0 +1,45 @@
+.Cus-Navbar .Cus-logo{
+    width: 3rem;
+}
+.Cus-Card-Image{
+    background-image: url("./assests/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.Cus-Card-Image .Cus-Button-Card,
+.Cus-Promise-Container .Cus-Button-Card,
+.Cus-Footer .Cus-Button-Card{
+    background-color: #61a631;
+}
+.Cus-Card-Image .Cus-Intro-Text{
+    margin-left: 8em;
+}
+.Cus-Progress{
+    background-color: #61a631;
+}
+.Cus-Promise-Container{
+    background-image: url("./assests/vegetables.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+.Cus-Promise-Container .Cus-Promise-Body{
+    width: 25vw;
+}
+
+@media  (max-width:1010px) {
+    .Cus-Card-Image .Cus-Intro-Text{
+        width: 100% !important;
+    }
+}
+@media  (max-width:768px) {
+    .Cus-Promise-Container .Cus-Promise-Body{
+        width: 50vw;
+    }
+}
+@media  (max-width:425px) {
+    .Cus-Promise-Container .Cus-Promise-Body{
+        width: 70vw;
+    }
+}

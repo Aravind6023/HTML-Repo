@@ -1,0 +1,21 @@
+.Cus-Body
+{
+    margin-top: -13px;
+    background-color: #f6c56e;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    color: #323f4b;
+}
+.Cus-Header{
+    font-family: 'Bree Serif', serif;
+    font-size:30px;
+    font-weight: 900;
+}
+.Cus-Text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.Cus-Button{
+    background-color: #ffffff;
+    border-radius: 6px;
+}

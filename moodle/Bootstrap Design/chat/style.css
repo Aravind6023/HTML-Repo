@@ -1,0 +1,29 @@
+.Bg_Image
+{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+    width: 405px;
+    height: 640px;
+}
+
+.Cus-Heading
+{
+    background-color: #323f4b;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.Cus-Send{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #47a3f3;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.Cus-Receive{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color:#52606d ;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

@@ -1,0 +1,179 @@
+.zero_Margin
+{
+    margin: 0;
+}
+.bg_Image
+{
+    background-image: url(../assests/desktop-wallpaper-maple-leaf-on-stone-7010318.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 880px;
+}
+.paragraph{
+    font-size: 42px;
+    font-variant: all-small-caps;
+    text-align: start;
+    color: whitesmoke;
+}
+.header
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    text-align: initial;
+    font-weight: 600;
+    mix-blend-mode: overlay;
+}
+.content
+{
+    padding-top: 7em;
+    width: 54%;
+}
+button{
+    background-color: inherit;
+    font-size: 7px;
+    padding: 7px 18px;
+    color: whitesmoke;
+    border: 2.4px solid whitesmoke;
+    letter-spacing: 2px;
+}
+.button_Container{
+    margin-top: 1.5em;
+    text-align: left;
+}
+.button_Spacing{
+    margin-left: 1em;
+}
+.bg_Clr{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 186%, rgba(0, 0, 0, 0.8) 100%);
+    width: inherit;
+    height: inherit;
+}
+
+.bg_img-food{
+    background-image: url(../assests/Candle_Light_Dinner-3_QpPW3ai.jpg);
+    height: 550px;
+    width: 880px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food_Content{
+    color: white;
+    padding-top: 6em;
+}
+.food_Content .parag{
+    width: 60%;
+}
+.food_Content .h1{
+    font-size: 56px;
+    margin: 0 0;
+}
+.parag p{
+    font-size: 16px;
+}
+.food_Content button{
+    font-size: 8px;
+    margin-top: 3em;
+    padding: 2em 3em;
+}
+
+
+.position{
+    margin-top: 5em;
+    margin-left: 19em;
+    width: 880px;
+}
+.position h1{
+     margin: 6px 0;
+}
+.bg-img-flower{
+    background-image: url(../assests/wp7317651.jpg);
+    width: 880px;
+    height: 495px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.position .para_Company{
+    margin: 0;
+}
+.bg-img-flower p
+{
+    font-size: 5EM;
+}
+.para_Container{
+    margin: 3em;
+}
+.para_Title span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.para_Heading
+{
+    text-align: end;
+}
+.template_restaurant{
+    background-image: url(../assests/italian-food-background-with-ingredients_1220-5139.avif);
+    width: 880px;
+    height: 495px;
+    background-size: cover;
+    margin-top: 5em;
+    margin-left: 19em;
+}
+.content_restaurant{
+    color: whitesmoke;
+    width: 55%;
+    padding: 8em 3em;
+}
+.content_restaurant .tem_title{
+    font-family: sans-serif;
+    font-size: 11px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+.content_restaurant .h1{
+    font-size: 29px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.content_restaurant button{
+    opacity: 0.6;
+}
+.tem_clr{
+    background-image: linear-gradient(45deg, black, transparent);
+    height: inherit;
+}
+
+.template_Gard{
+    background-image: url(../assests/service-lawn-care.jpg);
+    width: 880px;
+    height: 495px;
+    background-size: cover;
+    margin-top: 5em;
+    margin-left: 19em;
+}
+.grad_Clr
+{
+    background-image: linear-gradient(45deg, black, transparent);
+    height: inherit;
+}
+.grad_Content{
+    text-align: end;
+    color: antiquewhite;
+}
+.gard_Head{
+    margin: 0;
+}
+.gard_Title{
+    font-size: 37px;
+    font-family: system-ui;
+    margin: 0;
+    margin-top: 8px;
+}
+.grad_Content button{
+    margin-top: 4em;
+    border: none;
+    color: black;
+    background-color: yellow;
+}

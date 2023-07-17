@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+}
+.temp_Shadow{
+    background-image: url(assests/sunbeams-morning-forest-4k-j7-1336x768.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    color: whitesmoke;
+}
+.temp_Shadow button{
+    font-size: 18px;
+    border: none;
+    background-color: inherit;
+    color: whitesmoke;
+}
+.temp_Shadow input{
+    font-size: 18px;
+    margin: 15px 0;
+    padding: 3px 6px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    background-color: inherit;
+    color: whitesmoke;
+}
+/* .temp_Shadow .special_Font{
+    font-size: 19px;
+} */
+.temp_Shadow .login_Cont
+{
+    width: 16%;
+    top: 16em;
+    left: 30em;
+}
+.temp_Shadow .login_Into
+{
+    padding-left: 51px;
+}
+.signup_Cont, .login_Cont{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.temp_Shadow .login_Cont input:focus
+{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid yellow;
+    padding-right: -5em;
+}
+.cont_Login{
+    padding-bottom: 1.5em;
+}
+::placeholder{
+    color: whitesmoke;
+}
+.dark_Shadow{
+    background-image: linear-gradient(45deg, black, transparent);
+    width: inherit;
+    height: inherit;
+}
+.dark_Shadow .current_Page
+{
+    border-bottom: 3px solid red;
+}
+.login_Cont .register
+{
+    background-color:#098d2d ;
+    font-size: 15px;
+    padding: 12px 38px;
+    border-radius: 49px;
+}
+.reg_Cont{
+    text-align: center;
+    padding: 2em 0;
+}

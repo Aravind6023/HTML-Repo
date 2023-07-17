@@ -1,0 +1,37 @@
+.Cus-Container .Cus-Img{
+    height: 78vh;
+}
+.Cus-Container .Cus-ImgHeight{
+    height: inherit;
+}
+.Nav-Container .Cus-Text a{
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.Nav-Container .Cus-Text .Cus-Menu{
+    background-color: blueviolet;
+}
+.Nav-Container .Cus-Text a:hover{
+    background-color: beige;
+}
+.Cus-Container .Cus-Indicators button
+{
+    width: 5px;
+    padding: 3px;
+    border-radius: 50%;
+}
+/* @media screen and (min-width:991px)
+{
+    .Option-Menu
+    {
+        display: none;
+    }
+}
+@media screen and (max-width:992px)
+{
+    .Option-Menu
+    {
+        display: block;
+    }
+} */

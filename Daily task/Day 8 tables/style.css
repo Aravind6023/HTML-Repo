@@ -1,0 +1,119 @@
+.First-Table div{
+    width: 42%;
+    padding: 3em 2em;
+    background-color: #9bc76a;
+}
+.First-Table table{
+    padding: 2em 1em;
+    border-collapse: collapse;
+}
+.First-Table thead{
+    background-color: #feec86;
+}
+.First-Table tbody{
+    background-color: white;
+}
+.First-Table th{
+    padding: 2em 3em 1em 1em ;
+}
+.First-Table td{
+    padding: 1em;
+}
+.First-Table tr{
+    border-bottom: 1px solid black;
+}
+.First-Table .No-Border{
+    border: 0;
+}
+.First-Table .Cus-First-Head{
+    padding-right: 6em;
+}
+.Second-Table div{
+    width: 59%;
+}
+.Second-Table table,
+.Third-Table table{
+    border-collapse: collapse;
+}
+.Second-Table tr{
+    background-color: blanchedalmond;
+}
+.Second-Table .Color-Aqua{
+    background-color: aqua;
+}
+.Second-Table td{
+    padding: 1em 1em;
+}
+.Second-Table td:nth-child(2){
+    padding: 1em 2em;
+}
+.Second-Table td:nth-child(3){
+    padding: 1em 3em;
+}
+.Second-Table td:nth-child(4){
+    padding: 1em 4em;
+}
+.Third-Table div{
+    width: 45%;
+    color: white;
+}
+.Third-Table th,
+.Third-Table td{
+    padding: 1em 2em;
+}
+.Third-Table .Color-Black{
+    background-color: black;
+}
+.Third-Table .Color-Blue{
+    background-color: blue;
+}
+.Third-Table .Color-Red{
+    background-color: red;
+}
+.Third-Table .Color-Yellow{
+    background-color: yellow;
+}
+.Third-Table .Color-Orange{
+    background-color: orange;
+}
+.Third-Table .Color-Violet{
+    background-color: violet;
+}
+.Fourth-Table table{
+    border-spacing: 16px;
+}
+.Fourth-Table td{
+    padding: 11px;
+}
+.Fourth-Table th{
+    padding: 1em 6em;
+}
+.Fourth-Table th,
+.Fourth-Table td
+{
+    border: 1px solid black;
+}
+.Fourth-Table .Bg-Red{
+    background-color: red;
+}
+.Fourth-Table .Bg-Yellow{
+    background-color: yellow;
+}
+.Fourth-Table .Bg-Blue{
+    background-color: blue;
+}
+.Fifth-Table table{
+    border-collapse: collapse;
+}
+.Fifth-Table th{
+    padding: 1em;
+}
+.Fifth-Table th:nth-child(2){
+    padding: 1em 4em;
+}
+.Fifth-Table td{
+    padding: 1em 6em;
+}
+.Fifth-Table .Color-Skyblue{
+    background-color: skyblue;
+}

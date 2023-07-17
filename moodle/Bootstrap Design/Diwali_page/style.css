@@ -1,0 +1,10 @@
+.Cus-Title h2{
+    width: 18%;
+}
+.Cus-Title .Bg-Image{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18em;
+}
+

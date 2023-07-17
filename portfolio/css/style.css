@@ -1,0 +1,36 @@
+@import url(font.css);
+@import url(colors.css);
+
+.Cus-MainBody{
+    cursor:url("../assests/computer-mouse-solid.svg");
+}
+.Cus-MainBody .Cus-Navbar{
+    height: 11vh;
+}
+.Cus-MainBody .Cus-Navbar .Cus-LogoWidth{
+    width: 50%;
+}
+.Cus-MainBody .Cus-Section-Tile .Cus-Carousel,
+.Cus-MainBody .Cus-Section-Tile .Cus-Carousel .Cus-Caro-ImageConatiner,
+.Cus-MainBody .Cus-Section-Tile .Cus-Carousel .Cus-Caro-Images,
+.Cus-MainBody .Cus-Section-Tile .Cus-AboutMe{
+    height: 80vh;
+}
+.Cus-MainBody .Cus-Section-Tile .Cus-AboutMe .Cus-AboutMe-Name
+{
+    text-decoration: underline;
+}
+.Cus-MainBody .Cus-Section-Tile .Cus-AboutMe .Cus-AboutMe-Name,
+.Cus-MainBody .Cus-Section-Tile .Cus-AboutMe .Cus-AboutMe-Title
+{
+    font-variant: petite-caps;
+}
+.Cus-MainBody .Cus-Footer{
+    background-image: linear-gradient(309deg, black, transparent);
+}
+.Cus-MainBody .Cus-Footer .Cus-Footer-Logo{
+    width: 10%;
+}
+
+
+
